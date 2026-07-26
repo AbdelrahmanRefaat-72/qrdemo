@@ -1,0 +1,212 @@
+export const translations = {
+  ar: {
+    // Navigation & General
+    restaurantName: "مطعم كودكس",
+    currency: "ج.م",
+    table: "طاولة",
+    selectTable: "اختر رقم الطاولة",
+    tableNumber: "رقم الطاولة",
+    searchPlaceholder: "ابحث عن طبقك المفضّل...",
+    allCategories: "الكل",
+    addToCart: "إضافة للسلة",
+    cart: "سلة الطلبات",
+    emptyCart: "سلة الطلبات فارغة حالياً",
+    checkout: "تأكيد وإرسال الطلب",
+    notes: "ملاحظات خاصة",
+    notesPlaceholder: "مثال: بدون بصل، صوص إضافي...",
+    total: "الإجمالي",
+    subtotal: "المجموع الفرعي",
+    quantity: "الكمية",
+    close: "إغلاق",
+    cancel: "إلغاء",
+    confirm: "تأكيد",
+    save: "حفظ",
+    delete: "حذف",
+    edit: "تعديل",
+    add: "إضافة",
+    status: "الحالة",
+    action: "الإجراء",
+    backToMenu: "العودة للمنيو",
+    
+    // Order Statuses
+    RECEIVED: "تم الاستلام",
+    PREPARING: "جاري التحضير",
+    READY: "جاهز للتقديم",
+    SERVED: "تم التقديم",
+    PAID: "تم الدفع والإنهاء",
+    CANCELLED: "ملغي",
+    
+    // Order Tracker
+    orderPlaced: "تم تقديم طلبك بنجاح!",
+    orderNumber: "رقم الطلب",
+    trackingTitle: "متابعة حالة الطلب المباشرة",
+    stepReceived: "وصل للمطبخ",
+    stepPreparing: "الشيف يجهز طلبك الآن",
+    stepReady: "طلبك جاهز ويصلك فوراً",
+    stepServed: "استمتع بوجبتك!",
+    liveUpdates: "تحديثات لحظية عبر الـ WebSocket",
+    
+    // Roles & Auth
+    loginTitle: "تسجيل دخول كادر العمل",
+    username: "اسم المستخدم",
+    password: "كلمة المرور",
+    login: "تسجيل الدخول",
+    logout: "تسجيل الخروج",
+    adminDashboard: "لوحة التحكم الرئيسية",
+    kitchenDashboard: "شاشة المطبخ (Kitchen)",
+    waiterDashboard: "شاشة الصالة (Waiters)",
+    cashierDashboard: "شاشة الكاشير (Cashier)",
+    
+    // Kitchen Dashboard
+    kitchenTitle: "طلبات المطبخ المباشرة",
+    startPreparing: "بدء التحضير",
+    markReady: "جاهز للتقديم",
+    newOrderAlert: "طلب جديد وارد!",
+    
+    // Waiter Dashboard
+    waiterTitle: "الطلبات الجاهزة للتقديم",
+    markServed: "تم التقديم للعميل",
+    noReadyOrders: "لا توجد طلبات جاهزة حالياً",
+    
+    // Cashier Dashboard
+    cashierTitle: "حسابات الطلبات والكاشير",
+    paymentMethod: "طريقة الدفع",
+    cash: "نقداً (Cash)",
+    card: "بطاقة ائتمان (Card)",
+    markPaid: "تحصيل الدفع وإغلاق الجلسة",
+    noUnpaidOrders: "جميع الطلبات المسلمة تم دفعها",
+    
+    // Admin Dashboard
+    totalSales: "إجمالي المبيعات",
+    activeOrders: "الطلبات النشطة",
+    totalProducts: "إجمالي المنتجات",
+    totalTables: "عدد الطاولات",
+    manageCategories: "إدارة التصنيفات",
+    manageProducts: "إدارة المنتجات",
+    manageTables: "إدارة الطاولات ورموز QR",
+    restaurantSettings: "إعدادات المطعم",
+    uploadLogo: "رفع شعار المطعم",
+    qrGenerator: "توليد رمز QR الطاولة",
+    downloadQR: "تحميل QR Code",
+    productNameAr: "اسم المنتج (بالعربية)",
+    productNameEn: "اسم المنتج (بالإنجليزية)",
+    descAr: "الوصف (بالعربية)",
+    descEn: "الوصف (بالإنجليزية)",
+    price: "السعر",
+    category: "التصنيف",
+    available: "متوفر",
+    outOfStock: "غير متوفر",
+    image: "الصورة",
+    
+    // Security & Messages
+    orderSubmittedSuccess: "تم إرسال الطلب للمطبخ بنجاح!",
+    errorOccurred: "حدث خطأ، يرجى المحاولة مرة أخرى",
+    invalidCredentials: "اسم المستخدم أو كلمة المرور غير صحيحة",
+    requiredRole: "ليس لديك صلاحية للوصول إلى هذه الصفحة"
+  },
+  en: {
+    // Navigation & General
+    restaurantName: "Codex Restaurant",
+    currency: "EGP",
+    table: "Table",
+    selectTable: "Select Table Number",
+    tableNumber: "Table Number",
+    searchPlaceholder: "Search your favorite dish...",
+    allCategories: "All",
+    addToCart: "Add to Cart",
+    cart: "Shopping Cart",
+    emptyCart: "Your cart is currently empty",
+    checkout: "Submit & Place Order",
+    notes: "Special Notes",
+    notesPlaceholder: "e.g., No onions, extra sauce...",
+    total: "Total",
+    subtotal: "Subtotal",
+    quantity: "Quantity",
+    close: "Close",
+    cancel: "Cancel",
+    confirm: "Confirm",
+    save: "Save",
+    delete: "Delete",
+    edit: "Edit",
+    add: "Add New",
+    status: "Status",
+    action: "Action",
+    backToMenu: "Back to Menu",
+    
+    // Order Statuses
+    RECEIVED: "Received",
+    PREPARING: "Preparing",
+    READY: "Ready",
+    SERVED: "Served",
+    PAID: "Paid & Closed",
+    CANCELLED: "Cancelled",
+    
+    // Order Tracker
+    orderPlaced: "Order Placed Successfully!",
+    orderNumber: "Order #",
+    trackingTitle: "Live Order Status Tracking",
+    stepReceived: "Received by Kitchen",
+    stepPreparing: "Chef is cooking your dish",
+    stepReady: "Dish ready & coming to table",
+    stepServed: "Enjoy your meal!",
+    liveUpdates: "Real-time updates via WebSocket",
+    
+    // Roles & Auth
+    loginTitle: "Staff Portal Login",
+    username: "Username",
+    password: "Password",
+    login: "Sign In",
+    logout: "Sign Out",
+    adminDashboard: "Admin Dashboard",
+    kitchenDashboard: "Kitchen Display",
+    waiterDashboard: "Waiter Display",
+    cashierDashboard: "Cashier Display",
+    
+    // Kitchen Dashboard
+    kitchenTitle: "Live Kitchen Orders",
+    startPreparing: "Start Preparing",
+    markReady: "Mark Ready",
+    newOrderAlert: "New Incoming Order!",
+    
+    // Waiter Dashboard
+    waiterTitle: "Ready to Serve Orders",
+    markServed: "Mark as Served",
+    noReadyOrders: "No ready orders right now",
+    
+    // Cashier Dashboard
+    cashierTitle: "Billing & Cashier Portal",
+    paymentMethod: "Payment Method",
+    cash: "Cash",
+    card: "Credit / Debit Card",
+    markPaid: "Collect & Close Session",
+    noUnpaidOrders: "All served orders are paid",
+    
+    // Admin Dashboard
+    totalSales: "Total Sales",
+    activeOrders: "Active Orders",
+    totalProducts: "Total Products",
+    totalTables: "Total Tables",
+    manageCategories: "Manage Categories",
+    manageProducts: "Manage Products",
+    manageTables: "Manage Tables & QR",
+    restaurantSettings: "Restaurant Settings",
+    uploadLogo: "Upload Logo",
+    qrGenerator: "Generate Table QR",
+    downloadQR: "Download QR Code",
+    productNameAr: "Product Name (Arabic)",
+    productNameEn: "Product Name (English)",
+    descAr: "Description (Arabic)",
+    descEn: "Description (English)",
+    price: "Price",
+    category: "Category",
+    available: "Available",
+    outOfStock: "Out of Stock",
+    image: "Image",
+    
+    // Security & Messages
+    orderSubmittedSuccess: "Order successfully sent to kitchen!",
+    errorOccurred: "An error occurred, please try again",
+    invalidCredentials: "Invalid username or password",
+    requiredRole: "Access denied. Insufficient permissions"
+  }
+};
